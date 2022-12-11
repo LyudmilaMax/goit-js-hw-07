@@ -11,8 +11,8 @@ galleryContainer.addEventListener('click', e => {
         return;
     
     let galleryLightbox = new SimpleLightbox('.gallery a', {
-    captionData: "alt",
-	captionDelay: 250,
+    captionsData: "alt",
+	captionsDelay: 250,
 })
     });
 
