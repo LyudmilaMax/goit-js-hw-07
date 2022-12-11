@@ -38,4 +38,4 @@ function createGalleryItems(galleryItems) {
     .join("");
 }
 
-console.log(galleryItems);
+
