@@ -10,12 +10,12 @@ galleryContainer.addEventListener('click', e => {
     if (e.target.nodeName !== 'IMG')
         return;
     
-    let galleryLightbox = new SimpleLightbox('.gallery a', {
-    captionsData: "alt",
-	captionsDelay: 250,
-})
-    });
+});
 
+let galleryLightbox = new SimpleLightbox('.gallery a', {
+    captionsData: "alt",
+    captionDelay: 250,
+});
 
 
 function createGalleryItems(galleryItems) {

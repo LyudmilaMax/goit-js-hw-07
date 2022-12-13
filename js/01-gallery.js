@@ -18,7 +18,7 @@ galleryContainer.addEventListener('click', e => {
 
     instance.show()
     
-    gallery.addEventListener('keydown', e => {
+   galleryContainer.addEventListener('keydown', e => {
 		if (e.key === 'Escape') {
 			instance.close()
 		}
